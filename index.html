@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#170d2b">
+  <title>POP WAVE — Sintonize o seu mundo</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #100b20;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      padding: 25px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #49305f;
+    }
+    .logo {
+      font-size: 30px;
+      font-weight: 900;
+      letter-spacing: 3px;
+      color: #ff70db;
+      text-shadow: 0 0 18px #c04cff;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 18px;
+      font-size: 13px;
+    }
+    main {
+      max-width: 950px;
+      margin: auto;
+      padding: 65px 22px;
+    }
+    .hero {
+      text-align: center;
+      padding: 45px 15px;
+      border-radius: 24px;
+      background: linear-gradient(135deg,#34145b,#151b46,#51134c);
+      border: 1px solid #a34fce;
+    }
+    .hero h1 {
+      font-size: clamp(40px, 9vw, 76px);
+      margin: 15px 0;
+      letter-spacing: 5px;
+    }
+    .hero p { color: #e8b5f9; }
+    .live {
+      color: #ff8bdb;
+      letter-spacing: 4px;
+      font-size: 12px;
+    }
+    .player {
+      margin-top: 25px;
+      padding: 28px;
+      text-align: center;
+      background: #211735;
+      border-radius: 20px;
+      border: 1px solid #563878;
+    }
+    button {
+      background: linear-gradient(135deg,#ed55c9,#7956ff);
+      color: white;
+      border: none;
+      border-radius: 50px;
+      padding: 16px 35px;
+      font-size: 16px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    section { margin-top: 45px; }
+    h2 { color: #ef9aff; }
+    .schedule {
+      padding: 18px;
+      background: #211735;
+      border-radius: 12px;
+      margin: 10px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 35px;
+      color: #a99ab8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">POP WAVE</div>
+    <nav>
+      <a href="#inicio">INÍCIO</a>
+      <a href="#programacao">PROGRAMAÇÃO</a>
+      <a href="#sobre">SOBRE</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero" id="inicio">
+      <div class="live">● DIGITAL RADIO</div>
+      <h1>POP WAVE</h1>
+      <p>SINTONIZE O SEU MUNDO.</p>
+      <div class="player">
+        <p>VOCÊ ESTÁ NA FREQUÊNCIA POP</p>
+        <p>POP WAVE — AO VIVO</p>
+        <button onclick="alert('Nossa transmissão será conectada em breve!')">
+          ▶ OUVIR AGORA
+        </button>
+      </div>
+    </div>
+
+    <section id="programacao">
+      <h2>✦ PROGRAMAÇÃO</h2>
+      <div class="schedule">06h — Wake Up Wave</div>
+      <div class="schedule">09h — POP WAVE Hits</div>
+      <div class="schedule">12h — Flashback Wave</div>
+      <div class="schedule">14h — New Music</div>
+      <div class="schedule">16h — Drive Wave</div>
+      <div class="schedule">19h — Top 20 Wave</div>
+      <div class="schedule">21h — The Pop Experience</div>
+      <div class="schedule">23h — Wave Night</div>
+    </section>
+
+    <section id="sobre">
+      <h2>✦ SOBRE A POP WAVE</h2>
+      <p>
+        Os maiores sucessos do pop, clássicos inesquecíveis
+        e as novidades que estão conquistando o mundo.
+        Tudo em uma só frequência.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    POP WAVE © 2026 — SINTONIZE O SEU MUNDO.
+  </footer>
+</body>
+</html>
